@@ -60,6 +60,10 @@ The system simulates how an AI-first Product Manager or Analyst can accelerate d
 
 This repository demonstrates workflow and methodology rather than proprietary data or production code.
 
+## Project Artifacts
+- Sample PRD: sample-prd.md
+- Prompt Framework: ai-prompts-used.md
+  
 ---
 
 Author: Sanvid Vaidya
