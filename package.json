@@ -1,0 +1,15 @@
+{
+  "name": "ai-product-research-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Product Research System & PRD Studio",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "dev": "npm --prefix frontend run dev",
+    "test:frontend": "npm --prefix frontend run build",
+    "test:python": "pytest -v",
+    "test": "pytest -v && npm --prefix frontend run build"
+  },
+  "author": "Sanvid Vaidya",
+  "license": "MIT"
+}
