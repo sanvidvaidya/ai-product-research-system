@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-product-research-system"
+version = "1.0.0"
+authors = [
+  { name = "Sanvid Vaidya" }
+]
+description = "Deterministic and AI-augmented product research, competitive analysis, RICE prioritization, and PRD generation platform."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0.0",
+  "pytest-asyncio>=0.20.0"
+]
+
+[project.scripts]
+product-research = "ai_product_research.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ai_product_research*"]
+exclude = ["frontend*", "tests*"]
